@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #273444;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+.user-card img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.user-status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #21d891;
+  border: 2px solid white;
+  position: absolute;
+  right: -2px;
+  bottom: 2px;
+}
+
+.user-photo {
+  float: left;
+  margin-right: 12px;
+  position: relative;
+  margin: 8px;
+}
+
+.user-name {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.user-card ::after {
+  display: block;
+  clear: left;
+  content: "";
+}
+
+.user-card {
+  width: 240px;
+  height: 56px;
+  border: 1px solid #e5eaef;
+  border-radius: 4px;
+}

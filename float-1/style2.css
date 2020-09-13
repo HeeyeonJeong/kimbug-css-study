@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  float: left;
+}
+
+.tab-menu::after {
+  display: block;
+  clear: left;
+  content: "";
+}
+
+a {
+  padding: 16px 20px;
+  display: block;
+}
+
+.tab-menu {
+  border-bottom: 1px solid rgb(141, 116, 116);
+}
+
+.tab-menu-item.selected a {
+  color: pink;
+  border-bottom: 4px solid pink;
+}
